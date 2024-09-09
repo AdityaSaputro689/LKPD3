@@ -59,7 +59,7 @@ header ul li a:hover {
 }
 
 .banner {
-    height: auto;
+    height: 70pv auto;
     background-image: url('Bakso.jpg');
     background-size: cover;
     background-position: 0 auto;
