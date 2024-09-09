@@ -60,7 +60,7 @@ header ul li a:hover {
 
 .banner {
     height: 70vh;
-    background-image: url('../img/Bakso.jpg');
+    background-image: url('Bakso.jpg');
     background-size: cover;
     background-position: 0 auto;
     background-repeat: no-repeat;
@@ -164,7 +164,7 @@ table, th, td {
     line-height: 70px;
     font-size: 20px;
     margin: 0 auto;
-    background-image: url(../img/ovo.jpg);
+    background-image: url(ovo.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -179,7 +179,7 @@ table, th, td {
     line-height: 70px;
     font-size: 20px;
     margin: 0 auto;
-    background-image: url(../img/shopee.jpg);
+    background-image: url(shopee.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -194,7 +194,7 @@ table, th, td {
     line-height: 70px;
     font-size: 20px;
     margin: 0 auto;
-    background-image: url(../img/debit.png);
+    background-image: url(debit.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -209,7 +209,7 @@ table, th, td {
     line-height: 70px;
     font-size: 20px;
     margin: 0 auto;
-    background-image: url(../img/dana.jpg);
+    background-image: url(dana.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -224,7 +224,7 @@ table, th, td {
     line-height: 70px;
     font-size: 20px;
     margin: 0 auto;
-    background-image: url(../img/WhatsApp.jpeg);
+    background-image: url(WhatsApp.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -239,7 +239,7 @@ table, th, td {
     line-height: 70px;
     font-size: 20px;
     margin: 0 auto;
-    background-image: url(../img/Email.png);
+    background-image: url(Email.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
