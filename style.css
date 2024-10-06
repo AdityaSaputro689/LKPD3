@@ -342,3 +342,8 @@ button:hover {
     border-radius: 5px;
     text-align: center;
         }
+
+.info{
+    margin: 0 auto;
+    padding-left: 10%;
+}
