@@ -21,8 +21,11 @@
         <h1>Order & Bayar</h1>
     </section>
 
+        
+    <div class="bayar">
+
     <h2 class="order">Silahkan Pesan Menu Disini</h2>
-    <form id="orderForm" onsubmit="return submitOrder()" class="orderForm">
+    <form id="orderForm" class="orderForm">
         <label for="name">Nama:</label><br>
         <input type="text" id="name" name="name" required><br><br>
         
@@ -38,8 +41,7 @@
         
         <label for="quantity">Jumlah:</label><br>
         <input type="number" id="quantity" name="quantity" min="1" required><br><br>
-        
-        <button type="submit">Pesan Sekarang</button>
+        <button type="submit" onclick="submitOrder()">Pesan Sekarang</button>
     </form>
 
     <script>
@@ -53,6 +55,7 @@
                 return false;
             } else {
                 alert('Mohon lengkapi semua kolom.');
+                document.getElementById("orderForm").reset();
                 return false;
             }
         }
