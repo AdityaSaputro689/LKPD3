@@ -21,8 +21,8 @@
         <h1>Order</h1>
     </section>
 
-        
-    <div class="bayar">
+    <section>
+        <div class="bayar">
     <h2 class="order">Silahkan Pesan Menu Disini</h2>
     <form class="orderForm">
         <label for="name">Nama:</label><br>
@@ -43,7 +43,9 @@
         <button type="submit" onclick="submitOrder()">Pesan Sekarang</button>
     </form>
     </div>
+    </section>  
 
+        
     <script>
         function submitOrder() {
             const name = document.getElementById('name').value;
@@ -60,7 +62,7 @@
             }
         }
     </script>
-
+    
     <section class="service">
         <div class="container">
             <h3>Pembayaran</h3>
